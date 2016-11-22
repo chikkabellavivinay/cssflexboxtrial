@@ -1,0 +1,113 @@
+@media (min-height : 1px) and (max-width : 767px) {
+
+.a{
+background-color:blue;
+}
+
+.b{
+	background-color:brown;
+  }
+.c{
+	background-color:yellow;
+	
+	}
+.d{
+	background-color:green;
+	max-width : 100%;
+	flex-flow : center;
+	} 
+.e{
+	background-color:darkblue;
+	max-width: 100%;
+	}
+}
+ 
+
+@media (min-width : 768px) and (max-width : 2800px){
+	
+
+#main {
+				flex-direction: column;
+				flex-wrap: wrap;
+				display:flex;
+    }
+	
+
+#main1 {
+		
+				flex-direction: column;
+				flex-wrap: wrap;
+				display:flex;
+		
+    }
+ 	
+/*       	#body > header{
+				flex-direction:column;
+				background:brown;
+				/*background-image:-webkit-linear-gradient(bottom,tomato,blue);
+				
+        	}
+		
+	#main > aside{      	
+				background: green;
+        		flex: 1;
+        		order: 3;
+       				 }
+  
+        #main > nav{
+				background: blue;
+        		flex: 1;
+				order: 1;
+            	
+            	
+			
+			
+        }
+		
+	#body > #main1 > aside{
+           	
+				background: darkblue;
+        		flex: 1;
+        		order: 3;
+        }
+		
+	#body > #main1 > nav{
+	        	background: yellow;
+        		flex: 1;
+       			order: 1;
+        }
+    
+} */
+
+
+
+
+
+
+
+header{
+	background:brown;
+}
+
+#main1 > .b{
+	background:blue;
+	transform:translateX(100px);
+	max-width:50%;
+	flex :1;
+}
+
+.c{
+	background:yellow;
+	max-width:50%;
+}
+
+#main1 > .d{
+	background:green;
+max-width:50%;
+flex : 1;
+}
+
+.e{
+	background:darkblue;
+	max-width:50%;
+}
